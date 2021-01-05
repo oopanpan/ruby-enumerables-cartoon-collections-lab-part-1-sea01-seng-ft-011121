@@ -13,7 +13,7 @@ def list_dwarves(array)
   # Print a numbered list of each element
   header = 1
   array.each{ |i|
-    puts header.to_s + ". " + i
+    puts "#{header}. #{i}"
     header += 1 
   }
 end
